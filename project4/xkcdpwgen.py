@@ -4,7 +4,7 @@ import random
 import string
 
 # Define the word list
-with open('cy2550/project4/words.txt', 'r') as f:
+with open('words.txt', 'r') as f:
     word_list = [line.strip() for line in f]
 
 def generate_password(num_words, num_caps, num_nums, num_symbols):
