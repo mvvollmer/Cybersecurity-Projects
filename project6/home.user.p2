@@ -1,7 +1,11 @@
 abi <abi/3.0>,
+
 include <tunables/global>
+
 /home/miles/p2 {
   include <abstractions/base>
+  
+  /home/miles/p2 mr,
   /tmp/* rw,
   /home/miles/.project2/config w,
   /var/log/syslog r,
