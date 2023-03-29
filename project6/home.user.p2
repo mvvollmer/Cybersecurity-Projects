@@ -1,5 +1,5 @@
 abi <abi/3.0>
-include <tunables/global
+include <tunables/global>
 /home/miles/p2 {
   include <abstractions/base>
   /tmp/* rw
