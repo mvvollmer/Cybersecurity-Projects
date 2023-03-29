@@ -2,12 +2,12 @@ abi <abi/3.0>,
 
 include <tunables/global>
 
-/home/miles/p2 {
+/home/user/p2 {
   include <abstractions/base>
   
-  /home/miles/p2 mr,
+  /home/user/p2 mr,
   /tmp/* rw,
-  /home/miles/.project2/config w,
+  /home/user/.project2/config w,
   /var/log/syslog r,
   /etc/fstab r,
   /proc/version r,
@@ -17,6 +17,6 @@ include <tunables/global>
   /run/resolvconf/resolv.conf r,
   /etc/passwd r,
   /etc/hosts r,
-  /home/miles/template r,
+  /home/user/template r,
   network inet stream,
 }
